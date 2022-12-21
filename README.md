@@ -1,3 +1,11 @@
+# Some Screenshots
+
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/1.PNG" width="900"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/2.PNG" width="900"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/3.PNG" width="900"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/4.PNG" width="900"/>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
