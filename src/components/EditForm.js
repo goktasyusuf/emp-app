@@ -14,13 +14,12 @@ const EditForm = ({ theEmployee }) => {
   const [address, setAdress] = useState(employee.address);
   const [phone, setPhone] = useState(employee.phone);
 
-  const uptadedEmployee = {id,name,email,address,phone};
+  const uptadedEmployee = { id, name, email, address, phone };
 
-  const handleSubmit = (e)=> {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    UpdateEmployee(id,uptadedEmployee)
-  }
-
+    UpdateEmployee(id, uptadedEmployee);
+  };
 
   return (
     <Form onSubmit={handleSubmit}>
@@ -30,7 +29,7 @@ const EditForm = ({ theEmployee }) => {
           placeholder="Name * "
           value={name}
           name="name"
-          onChange={(e)=>setName(e.target.value)}
+          onChange={(e) => setName(e.target.value)}
           required
         />
       </Form.Group>
@@ -38,7 +37,7 @@ const EditForm = ({ theEmployee }) => {
 
       <Form.Group>
         <Form.Control
-        onChange={(e)=>setEmail(e.target.value)}
+          onChange={(e) => setEmail(e.target.value)}
           type="email"
           placeholder="Email"
           value={email}
@@ -48,7 +47,7 @@ const EditForm = ({ theEmployee }) => {
       <br />
       <Form.Group>
         <Form.Control
-        onChange={(e)=>setAdress(e.target.value)}
+          onChange={(e) => setAdress(e.target.value)}
           value={address}
           as="textarea"
           rows={3}
@@ -60,7 +59,7 @@ const EditForm = ({ theEmployee }) => {
 
       <Form.Group>
         <Form.Control
-        onChange={(e)=>setPhone(e.target.value)}
+          onChange={(e) => setPhone(e.target.value)}
           type="text"
           placeholder="Phone"
           name="phone"
