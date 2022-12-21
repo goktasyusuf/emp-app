@@ -1,9 +1,15 @@
+# GIF
+
+![Gif 1](https://github.com/goktasyusuf/emp-app/blob/master/public/1.gif)
+
+
 # Some Screenshots
 
-<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/1.PNG" width="900"/>
-<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/2.PNG" width="900"/>
-<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/3.PNG" width="900"/>
-<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/4.PNG" width="900"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/1.PNG" width="1012"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/2.PNG" width="1012"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/3.PNG" width="1012"/>
+<img src="https://github.com/goktasyusuf/emp-app/blob/master/public/4.PNG" width="1012"/>
+
 
 
 # Getting Started with Create React App
